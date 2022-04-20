@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b0c4de85;
+}
+
+.menu-bar {
+  background-color: #00ffff9f;
+  border: outset;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 5px;
+}
+.container-fluid img {
+  width: 50px;
+  margin-left: 20px;
+  margin-top: -35px;
+}
+
+.nav-item h2 {
+  font-size: 20px;
+  font-family: "Scheherazade New", serif;
+}
+
+.nav-item h3 {
+  font-size: 20px;
+  font-family: "Scheherazade New", serif;
+  margin-left: 15%;
+}
+
+.inter {
+  margin-left: 390px;
+}
+
+.inter h2 {
+  font-size: 18px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 8px;
+  color: black;
+}
+
+.high {
+  margin-left: 50px;
+}
+
+.high h2 {
+  font-size: 18px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 8px;
+  color: black;
+}
+
+.req {
+  margin-left: 55px;
+}
+
+.req h2 {
+  font-size: 18px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 8px;
+  color: black;
+}
+
+.d-flex {
+  margin-top: -20px;
+  margin-right: 10px;
+}
+
+.navbar button {
+  background-color: #f5005f;
+  color: white;
+}
+
+.employee img {
+  width: 18%;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+.facult img {
+  width: 45px;
+  margin-top: 29px;
+  margin-left: 41%;
+}
+
+.facult h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 45%;
+  font-weight: bold;
+}
+.mose {
+  width: 50%;
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+.form-control-lg {
+  border: 2px solid rgba(0, 0, 0, 0.678);
+}
+.tnm {
+  background-color: white;
+  color: black;
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 40px;
+  border-radius: 10px;
+  border-color: black;
+  font-weight: bold;
+}
+
+.sources img {
+  width: 50px;
+  margin-top: 55px;
+  margin-left: 40%;
+}
+
+.sources h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 45%;
+  font-weight: bold;
+}
+
+.mat ul {
+  display: flex;
+}
+
+.mat h2 {
+  margin-top: 50px;
+  margin-left: 17%;
+
+  color: black;
+}
+
+.video img {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 19%;
+}
+
+.student img {
+  width: 90px;
+  margin-top: 58px;
+  margin-left: 40%;
+}
+
+.student h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -70px;
+  margin-left: 47%;
+  font-weight: bold;
+}
+
+.coming h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 75px;
+  margin-left: 38%;
+  font-weight: bold;
+}
+
+.coming img {
+  width: 45px;
+  margin-top: -63px;
+  margin-left: 34%;
+}
+.script {
+  margin-top: 30px;
+  margin-left: 43%;
+}
+
+.script li {
+  margin-top: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.road h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 55px;
+  margin-left: 34%;
+  font-weight: bold;
+}
+
+.road img {
+  width: 40px;
+  margin-top: -80px;
+  margin-left: 31%;
+}
+
+.map img {
+  width: 60%;
+  margin-left: 21%;
+  border: outset;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 5px;
+  margin-top: 20px;
+}
+
+.web img {
+  width: 60px;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.web h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 36%;
+  font-weight: bold;
+}
+
+.h {
+  width: 69%;
+  height: 70px;
+  border: 5px solid rgba(0, 0, 0, 0.377);
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staright {
+  width: 1px;
+  height: 70px;
+  border: 4px solid rgba(0, 0, 0, 0.603);
+  margin-top: -88px;
+  margin-left: 49%;
+}
+
+.line {
+  width: 1px;
+  height: 70px;
+  border: 4px solid rgba(0, 0, 0, 0.363);
+  margin-top: -7px;
+  margin-left: 15%;
+}
+
+.vertical {
+  width: 1px;
+  height: 70px;
+  border: 4px solid rgba(0, 0, 0, 0.363);
+  margin-top: -4%;
+  margin-left: 84%;
+  position: relative;
+}
+
+.line ul {
+  margin-top: 70px;
+  margin-left: -56px;
+}
+
+.line li {
+  font-size: 20px;
+  height: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+.vertical ul {
+  margin-top: 80px;
+  margin-left: -56px;
+}
+
+.vertical li {
+  font-size: 20px;
+  height: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  border: outset;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color:	#48D1CC;
+  margin-top: 20%;
+  height: 290px;
+  
+}
+
+.clo img{
+    width: 45px;
+    margin-left: 20px;
+}
+.lad img{
+    width: 14%;
+    margin-top: 40px;
+    margin-left: 115px;
+}
+
+.lad h2{
+    font-size: 18px;
+    margin-top: -40px;
+    margin-left: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+.lad h3{
+    font-size: 18px;
+    margin-left:9%;
+    font-weight: bold;
+    color: black;
+}
+
+.Services h2{
+    font-size: 20px;
+    margin-top: -17%;
+    margin-left: 45%;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    
+}
+
+.Services img{
+    width: 38px;
+    margin-top:22px;
+    margin-left: 47%;
+    position: relative;
+    
+   
+}
+
+
+.about h2{
+    font-size: 20px;
+    margin-top: -93px;
+    margin-left: 66%;
+    font-weight: bold;
+    color: black;
+  
+}
+
+.about img{
+    width: 38px;
+    margin-top:90px;
+    margin-left: 47%;
+    position: relative;
+}
+
+.about ul{
+  margin-top: -100px;
+  margin-left: 64%;
+  position:absolute;
+  
+}
+
+.about li{
+margin-bottom:55px ;
+list-style: none;
+
+
+}
+
+
+.about a{
+  color: black;
+  list-style: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+.poot h2{
+    font-size: 20px;
+    margin-top: -156px;
+    margin-left: 86%;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    
+}
+
+
+.poot img{
+    width: 52px;
+    margin-top:175px;
+    margin-left: 47%;
+    
+}
+
+
+.poot ul{
+  margin-top: -208px;
+  margin-left: 84%;
+}
+
+.poot li{
+  margin-bottom:55px ;
+  list-style: none;
+  
+  }
+
+  .poot a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+
+  

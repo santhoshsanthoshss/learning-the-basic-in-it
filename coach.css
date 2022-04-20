@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: url(https://digidezine.com/wp-content/uploads/revslider/agency-sparta-animated1/4-25_mini_mini2.jpg); */
+  /* background: url(https://media.giphy.com/media/3oKIPpFhwsMNrRIjN6/giphy.gif); */
+  background-color: #b0c4de85;
+  
+  
+}
+
+
+.menu-bar {
+  border: outset;
+  /* background-image: url(https://media.giphy.com/media/26BRGoqbUQvk8nwTC/giphy.gif); */
+  /* background-image: url(https://media.giphy.com/media/WPwD0gdWFsNRy8LA2P/giphy.gif); */
+  background: url(https://media.giphy.com/media/kg19fN5BXbZGIDznzG/giphy.gif);
+
+  border-color: rgba(255, 217, 0, 0.705);
+  border-width: 5px;
+  border-radius: 5px;
+  /* height: 100px; */
+}
+
+.navbar-brand h2 {
+  color: white;
+  font-family: "Scheherazade New", serif;
+}
+.container-fluid img {
+  width: 70px;
+}
+.nav-item {
+  font-family: "Scheherazade New", serif;
+  margin-right: 40px;
+  color: white;
+}
+
+.nav-item h2 {
+  color: white;
+  font-size: 25px;
+}
+.nav-link h3 {
+  font-size: 18px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 8px;
+  color: white;
+  margin-left: 140px;
+}
+
+.square{
+  margin: auto;
+  margin-top: 8%;
+  margin-left: 33%;
+  
+  
+  
+}
+.card-body{
+  border: outset;
+  border-color:rgba(255, 0, 0, 0.801);
+  border-width: 5px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .square {
+   margin: auto;
+   margin-top: 15%;
+    width: 85%;
+    
+  }
+}
+.card-body p{
+  font-weight: bold;
+  
+}
+.col-md-4{
+  border: outset;
+  border-color:rgba(255, 0, 0, 0.808);
+  border-width: 5px;
+}
+
+.col-md-4 img{
+  margin: auto;
+  width: 300%;
+  height: 100%;
+  
+}
+h5{
+  font-family: "Scheherazade New", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
+.rating div{
+color: #ffe400;
+}
+.rating input{
+display: none;
+}
+
+.rating input + label{
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor: pointer;
+
+}
+
+.rating input:checked +label ~ label{
+  color: #838383;
+}
+
+.rating label:active{
+  transform: scale(0.8);
+  transition: 0.3s ease;
+  
+}
+
+button{
+  width: 30%;
+  margin-top: 10px;
+}
+
+
+
+footer {
+  color: white;
+  background-color: #9470db93;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    margin-top: 16%;
+  }
+}
+
+.mb-0 {
+  font-family: "Scheherazade New", serif;
+}
+
+.Services img {
+  width: 45px;
+margin-top: auto;
+margin-top: -5px;
+  margin-left: 50%;
+  position: absolute;
+
+}
+@media screen and (max-width: 500px) {
+  .Services img {
+    margin-top: 8px;
+    margin-left: 40px;
+    
+  }
+}
+
+.facebook img {
+  width: 43px;
+  margin: auto;
+  margin-top: -5px;
+  margin-left: 70%;
+}
+@media screen and (max-width: 500px) {
+  .facebook img {
+    margin-top: 8px;
+    margin-left: 163px;
+  }
+}
+
+img{
+  margin: auto;
+  width: 55px;
+  margin-left: 80%;
+  margin-top: -5%;
+}
+
+@media screen and (max-width: 500px) {
+   img {
+    margin-top: -70px;
+  }
+}
+.copy {
+
+  margin-top: -20px;
+  
+}
+
+@media screen and (max-width: 2000px) {
+  .copy {
+    margin-left: 30px;
+  }
+}

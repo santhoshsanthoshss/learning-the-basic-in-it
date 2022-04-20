@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b0c4de85;
+}
+
+.menu-bar {
+  border: outset;
+  background-image: url(https://media.giphy.com/media/26BRGoqbUQvk8nwTC/giphy.gif);
+
+  border-color: rgba(255, 217, 0, 0.705);
+  border-width: 5px;
+  border-radius: 5px;
+  /* height: 100px; */
+}
+
+.navbar-brand h2 {
+  color: white;
+  font-family: "Scheherazade New", serif;
+}
+.container-fluid img {
+  width: 70px;
+}
+.nav-item {
+  font-family: "Scheherazade New", serif;
+  margin-right: 40px;
+  color: white;
+}
+
+.nav-item h2 {
+  color: white;
+  font-size: 25px;
+}
+.nav-link h3 {
+  font-size: 18px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 8px;
+  color: white;
+  margin-left: 140px;
+}
+
+.employee img {
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+  .employee img {
+    width: 190px;
+    margin-left: 98px;
+  }
+}
+.facult img {
+  width: 45px;
+  margin-top: 29px;
+  margin-left: 41%;
+}
+.facult h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 45%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .facult img {
+    width: 45px;
+    margin-left: 90px;
+  }
+  .facult h2 {
+    margin-left: 39%;
+  }
+}
+
+.mose {
+  width: 50%;
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+.form-control-lg {
+  border: 2px solid rgba(0, 0, 0, 0.678);
+}
+.tnm {
+  /* background-color: white; */
+
+  background-image: url(https://media.giphy.com/media/l0HlGJ60hjtzMyiL6/giphy.gif);
+  color: black;
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 40px;
+  border-radius: 10px;
+  border-color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .tnm {
+    width: 300px;
+    margin-left: -67px;
+  }
+}
+
+.sources img {
+  width: 50px;
+  margin-top: 55px;
+  margin-left: 40%;
+}
+
+.sources h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 45%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .sources img {
+    width: 45px;
+    margin-left: 90px;
+  }
+}
+
+.mat ul {
+  display: flex;
+}
+
+.mat h2 {
+  margin-top: 50px;
+  margin-left: 17%;
+
+  color: black;
+}
+.video img {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 19%;
+}
+
+@media screen and (max-width: 1000px) {
+  .mat h2 {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 22px;
+  }
+  .video img {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 17%;
+  }
+}
+
+.student img {
+  width: 50px;
+  margin-top: 60px;
+  margin-left: 40%;
+}
+
+.student h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 45%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .student img {
+    margin-top: 40px;
+    width: 45px;
+    margin-left: 90px;
+  }
+  .student h2 {
+    margin-top: -40px;
+    margin-left: 150px;
+  }
+}
+
+.coming img {
+  width: 45px;
+  margin-top: -63px;
+  margin-left: 34%;
+}
+
+.coming h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 78px;
+  margin-left: 38%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .coming img {
+    margin-top: -30%;
+    margin-left: 70px;
+  }
+  .coming h2 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+}
+
+.script {
+  margin-top: 30px;
+  margin-left: 43%;
+}
+
+.script li {
+  margin-top: 30px;
+  font-weight: bold;
+  color: black;
+}
+@media screen and (max-width: 1000px) {
+  .script li {
+    margin-left: -50px;
+  }
+}
+.road h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: 55px;
+  margin-left: 34%;
+  font-weight: bold;
+}
+
+.road img {
+  width: 40px;
+  margin-top: -80px;
+  margin-left: 31%;
+}
+
+@media screen and (max-width: 1000px) {
+  .road img {
+    margin-top: -29%;
+    margin-left: 70px;
+  }
+  .road h2 {
+    font-size: 16px;
+  }
+}
+
+.map img {
+  width: 60%;
+  margin-left: 21%;
+  border: outset;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 5px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .map img {
+    width: 70%;
+    margin-left: 65px;
+  }
+}
+
+.web img {
+  width: 60px;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.web h2 {
+  font-size: 27px;
+  font-family: "Scheherazade New", serif;
+  margin-top: -40px;
+  margin-left: 36%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .web img {
+    width: 45px;
+    margin-left: 60px;
+  }
+  .web h2 {
+    margin-top: -20px;
+    margin-left: 120px;
+    font-size: 90%;
+    font-weight: bold;
+  }
+}
+
+.h {
+  width: 74%;
+  height: 70px;
+  border: 5px solid rgba(0, 0, 0, 0.377);
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staright {
+  width: 1px;
+  height: 70px;
+  border: 4px solid rgba(0, 0, 0, 0.603);
+  margin-top: -88px;
+  margin-left: 52%;
+}
+
+.line {
+  width: 1px;
+  height: 70px;
+  border: 4px solid rgba(0, 0, 0, 0.363);
+  margin-top: -7px;
+  margin-left: 13%;
+}
+
+.vertical {
+  width: 1px;
+  height: 73px;
+  border: 4px solid rgba(0, 0, 0, 0.363);
+  margin-top: -70px;
+  margin-left: 87%;
+  position: relative;
+}
+
+.line ul {
+  margin-top: 70px;
+  margin-left: -56px;
+}
+
+.line li {
+  font-size: 20px;
+  height: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+.vertical ul {
+  margin-top: 80px;
+  margin-left: -56px;
+}
+
+.vertical li {
+  font-size: 20px;
+  height: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .vertical {
+    margin-top: -70px;
+    margin-left: 85%;
+  }
+  .vertical li {
+    margin-left: -25px;
+    margin-top: -8px;
+    height: 87px;
+  }
+
+  .line li {
+    margin-top: 10px;
+  }
+  .line ul {
+    margin-left: -49px;
+  }
+}
+
+footer {
+  color: white;
+  background-color: #9470db93;
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    margin-top: 80%;
+  }
+}
+
+.mb-0 {
+  font-family: "Scheherazade New", serif;
+}
+
+.Services img {
+  width: 45px;
+margin-top: auto;
+margin-top: -5px;
+  margin-left: 50%;
+  position: absolute;
+
+}
+@media screen and (max-width: 500px) {
+  .Services img {
+    margin-top: 8px;
+    margin-left: 40px;
+    
+  }
+}
+
+.facebook img {
+  width: 43px;
+  margin: auto;
+  margin-top: -5px;
+  margin-left: 70%;
+}
+@media screen and (max-width: 500px) {
+  .facebook img {
+    margin-top: 8px;
+    margin-left: 163px;
+  }
+}
+
+img{
+  margin: auto;
+  width: 55px;
+  margin-left: 80%;
+  margin-top: -5%;
+}
+
+@media screen and (max-width: 500px) {
+   img {
+    margin-top: -70px;
+  }
+}
+.copy {
+
+  margin-top: -20px;
+  margin-left: -50px;
+  
+}
+
+.copy p{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.719);
+  font-weight: bold;
+  margin-left: 45%;
+
+  
+  
+}
+
+@media screen and (max-width: 2000px) {
+  .copy {
+    margin-left: 30px;
+  }
+  .copy p{
+margin-left: 95px;
+  }
+
+}
